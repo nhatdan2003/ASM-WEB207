@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    /* border: 1px solid red; */
+    max-width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+    position: relative;
+}
+
+.shopping-mall {
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+
+}
+nav{
+    /* bs-g */
+    /* background-image: linear-gradient(.25turn, red, 20%, blue); */
+    
+}
+.navbar-brand, .nav-link{
+    color: #EEEEEE;
+}
+/*css hình ảnh*/
+.pull-right {
+    position: absolute;
+    width: 18.75rem;
+    height: 9.375rem;
+    bottom: 0px;
+    right: 0px;
+   
+}
+
+.shopping-mall>h1 {
+    font-family: impact;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+
+.shopping-mall>h5{
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+nav {
+    /* border: 1px solid black;
+    max-width: 100%;
+    height: 40px;
+    background-color: aqua;
+    display: flex; */
+
+
+
+}
+
+.row {
+    /* max-width:1200px; */
+    /* justify-content: center; */
+    margin: 0;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.col-9 {
+    /* max-width: calc(70% - 12px);
+    margin-right: 12px; */
+    height: 200px;
+    border: 1px solid red;
+    display: block;
+}
+
+article>h1 {
+    text-align: center;
+    justify-content: center;
+    margin: 60px 0% 0% 40px;
+    padding: auto;
+}
+
+.col-3 {
+    /* max-width: 30%; */
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+}
+
+aside>span {
+    text-align: center;
+    justify-content: center;
+    margin: 70px 0% 0% 60px;
+    padding: auto;
+}
+
+footer {
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    background-color: #EEEEEE;
+}
+
+footer>span {
+    justify-content: center;
+    margin-top: 10px;
+}
+

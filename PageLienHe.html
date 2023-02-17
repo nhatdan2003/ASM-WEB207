@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <style>
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--Bắt đầu header-->
+  <header class="border-bottom">
+    <!-- place navbar here -->
+    <div class="container  ">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class=" col-md-11 col-lg-2">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <img class="  ms-4 ms-md-5 ps-md-5 ms-lg-0 px-lg-0 img-fluid" src="image/logo (1).png" alt="">
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">TRANG CHỦ</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  SẢN PHẨM
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> Túi Đan Handmade</a></li>
+                  <li><a class="dropdown-item" href="#"> Charm Decor</a></li>
+                  <li><a class="dropdown-item" href="#"> Túi Cỏ Bàng</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#"> Phụ Kiện </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">GIỚI THIỆU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="PageTinTuc.html">TIN TỨC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="PageLienHe.html">LIÊN HỆ</a>
+              </li>
+            </ul>
+            <form class="d-flex align-items-center justify-content-center" role="search">
+              <input class="h-50 form-control " type="search" placeholder="Search" aria-label="Search">
+              <span class="h-50 input-group-text " id="basic-addon2"><i class="h-50 bi bi-search"></i></span>
+            </form>
+          </div>
+          <!-- <div class=" col-2 col-lg-2 justify-content-center d-flex">
+                <i  class="fa-solid fa-cart-shopping fs-2 "></i>
+              </div> -->
+          <div class="col justify-content-center d-flex">
+            <a href="#" class="position-relative ms-3">
+              <i class="bi bi-bag fs-3"></i>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                0
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </a>
+          </div>
+        </nav>
+
+      </div>
+
+    </div>
+    </div>
+  </header>
+
+  <!--Kết thúc header-->
+  <!--Bắt đầu nav-->
+  <nav class="bg-light my-3 " style="height: 30px;">
+    <div class="container h-100">
+      <span><a href="#" class="text-secondary" style="text-decoration: none;">Trang chủ</a></span>
+      <span>/ Liên hệ</span>
+    </div>
+  </nav>
+  <!--Kết thúc nav-->
+  <!--Bắt đầu main-->
+  <main>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-md-6">
+          <h4>Công ty TNHH EGANY</h4>
+          <i class="bi bi-geo-alt-fill"></i> Địa chỉ: 339/24A1 Lê Văn Sỹ, Phường 13, Quận 3, Hồ Chí Minh.
+          <br>
+          <i class="bi bi-phone"></i> Số điện thoại: 0868 046 882
+          <br>
+          <i class="bi bi-envelope-fill"></i> Email: support@4season.vn
+          <hr>
+          <h6>LIÊN HỆ VỚI CHÚNG TÔI</h6>
+          <div class="mb-3">
+            <input class="form-control" id="Họ tên*" placeholder="Họ tên*">
+          </div>
+          <div class="mb-3">
+            <input class="form-control" id="Email*" placeholder="Email*">
+          </div>
+          <div class="mb-3">
+            <input class="form-control" id="Số điện thoại*" placeholder="Số điện thoại*">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="Nhập nội dung*" placeholder="Nhập nội dung*" rows="3"></textarea>
+          </div>
+          <div class="d-flex justify-content-center ">
+            <button style="width: 7rem;" type="button" class="btn btn-danger ">GỬI</button>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7838.65226922293!2d106.67672898345559!3d10.786314197704419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f2a6e03be35%3A0x1b8155ac2c25e29d!2zMzM5LzI0IMSQLiBMw6ogVsSDbiBT4bu5LCBQaMaw4budbmcgMTMsIFF14bqtbiAzLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1676349956339!5m2!1svi!2s"
+            width="600" height="415" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </main>
+  <!--Kết thúc main-->
+  <!--Bắt đầu footter-->
+  <footer class="">
+    <hr>
+    <!-- place footer here -->
+    <div class="container">
+      <div class="container">
+        <div class="row pt-3">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <img src="img/logo (1).png" class="img-fluid" alt="">
+            <br>
+            <i class="bi bi-geo-alt-fill"></i> Địa chỉ: 339/24A1 Lê Văn Sỹ, Phường 13, Quận 3, Hồ Chí Minh.
+            <br>
+            <i class="bi bi-phone"></i> Số điện thoại: 0868 046 882
+            <br>
+            <i class="bi bi-envelope-fill"></i> Email: support@4season.vn
+            <br>
+            © Bản quyền thuộc về <a href="#" style="text-decoration: none;">EGANY</a> | Cung cấp bởi <a href="#"
+              style="text-decoration: none;">Sapo</a>
+          </div>
+          <div class=" ft-content col-lg-3 col-md-3 col-sm-12 col-12">
+            <h5>CHÍCH SÁCH</h5>
+            <a href="#" class="text-dark a-hover ">Bảo hành sản phẩm</a>
+            <br>
+            <a href="#" class="text-dark a-hover">Chính sách bán hàng</a>
+            <br>
+            <a href="#" class="text-dark a-hover">Chính sách giao hàng</a>
+            <br>
+            <a href="#" class="text-dark a-hover">Chính sách đổi trả</a>
+            <br>
+          </div>
+          <div class="ft-content col-lg-3 col-md-3 col-sm-12 col-12">
+            <h5>HỖ TRỢ KHÁCH HÀNG</h5>
+            <a href="#" class="text-dark a-hover">Điều khoản dịch vụ</a>
+            <br>
+            <a href="#" class="text-dark a-hover">Hệ thống cửa hàng</a>
+            <br>
+            <a href="#" class="text-dark a-hover">Câu hỏi thường gặp</a>
+            <br>
+            <a href="PageLienHe.html" class="text-dark a-hover">Liên hệ</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <h5>ĐĂNG KÝ NHẬN TIN</h5>
+            <p>Bạn có muốn nhận khuyến mãi đặc biệt? Đăng ký ngay.</p>
+            <div class="input-group mb-3 rounded-pill">
+              <input type="text" class="form-control" placeholder="Nhập địa chỉ email"
+                aria-label="Nhập địa chỉ email" aria-describedby="basic-addon2">
+              <button class="input-group-text btn-dark btnrounded-pill" role="button" id="basic-addon2">Đăng
+                ký</button>
+            </div>
+            <span class="fs-1">
+              <a href="#"><i class="bi bi-facebook text-primary"></i></a>
+            </span>
+
+            <span class="fs-1">
+              <a href="#"><i class="bi bi-twitter text-info"></i></a>
+            </span>
+
+            <span class="fs-1">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </span>
+
+            <span class="fs-1">
+              <a href="#"><i class="bi bi-tiktok"></i></a>
+            </span>
+          </div>
+        </div>
+        <div class="ATM text-center pb-5">
+          <a href="#"><img
+              src="https://bizweb.dktcdn.net/100/467/308/themes/891449/assets/footer_trustbadge.png?1674009107673"
+              alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Kết thúc footter-->
+  <script src="css/popper.min.js">
+  </script>
+
+  <script src="css/bootstrap.min.js">
+  </script>
+</body>
+
+</html>
